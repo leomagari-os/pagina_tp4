@@ -1,0 +1,89 @@
+
+.cont-general{
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+.login{
+  margin: 5% auto auto auto;
+  width: 62%;
+  height: 400px;
+  /* box-shadow: 0 0 10px #afa9a9; */
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  background-color: white;
+}
+.registrar{
+  margin: 5% auto auto auto;
+  width: 32%;
+  height: 400px;
+  /* box-shadow: 0 0 10px #afa9a9; */
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  background-color: white;
+}
+.container{
+  margin: 5% auto auto auto;;
+  width: 80%;
+}
+.login_input label{
+  display: block;
+}
+.login_input input{
+  display: block;
+}
+.login_input .sugerencia{
+  font-size: 12px;
+  color: rgb(122, 122, 122);
+}
+.login_input{
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.login_input input{
+  height: 25px;
+  width: 50%;
+}
+.titulo{
+  font-size: 27px;
+  text-transform: uppercase;
+  /* margin-bottom: 10%; */
+}
+button{
+  height: 40px;
+  width: auto;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  line-height: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1%;
+  margin-left: 5%;
+  background-color: #53d672;
+  border-radius: 5px;
+}
+.mantener{
+  font-size: 12px;
+}
+.check_box{
+  display: block;
+  margin-top: 70px;
+  margin-left: 5%;
+}
+.login .login_ayuda{
+  font-size: 12px;
+  color: rgb(122, 122, 122);
+  display: block;
+  margin-top: 10px;
+  margin-left: 5%;
+}
+.info{
+  margin: auto;
+  width: 80%;
+  display: block;
+  font-size: 12px;
+
+}
+.registrar button{
+  margin-top: 123px;
+}

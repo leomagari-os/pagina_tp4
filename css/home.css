@@ -1,0 +1,277 @@
+/******  FILTROS  *****/
+.cont-filtros{
+  margin-top:15px;
+  margin-left: 5px;
+  /* height: 100%; */
+  background-color: #ffffff;
+  width: 17%;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  /* text-transform: uppercase; */
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  color: black;
+}
+.filtro-categoria{
+  /* text-align: center; */
+  padding: 10px;
+}
+.filtro-list{
+  padding: 0;
+  margin: 0;
+}
+.filtro-list li{
+  padding: 10px 15px;
+  list-style: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+/******  PRINCIPAL  *****/
+.cont-principal{
+  width: calc(85% - 15px);
+  height: auto;
+  background: transparent;
+  position: absolute;
+  right: 0;
+  /* margin-top:15px; */
+  padding-bottom: 15px;
+}
+/******  CAROUSEL  *****/
+.cont-carousel{
+  /* background: red; */
+  width: 90%;
+  height: 500px;
+  margin-top: 15px;
+  margin-left: 5%;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.carousel{
+  background: gray;
+  width: 70%;
+  display: inline-block;
+  height: 100%;
+}
+.carousel img{
+  width: 100%;
+  height: 100%;
+}
+.titulo-ver-mas{
+  display: flex;
+  margin: auto;
+  height: 10%;
+}
+.titulo-ver-mas .btn{
+  background-color: #53d672 !important;
+  border: none;
+  float: right;
+  margin: auto 2px 5px auto;
+  color: white;
+  padding: 1px 25px;
+}
+.titulo-box{
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.ofertas .titulo-ver-mas{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+/******  DESCRIPCION  *****/
+.cont-descripcion{
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+  float: right;
+  background-color: #ffffff;
+  color: black;
+  top: 0;
+}
+.cont-descripcion .cont-miniaturas table{
+  margin: auto;
+  width: 90%;
+}
+.cont-descripcion .cont-miniaturas td{
+  padding: 5px;
+}
+.cont-descripcion .cont-miniaturas img {
+  width: 100%;
+  height: 75px;
+}
+.descripcion-title{
+  padding: 5px 15px;
+  margin: 15px auto 15px auto;
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #0ab332;
+}
+.descripcion-text{
+  height: auto;
+  padding: 0px 15px 15px 15px;
+  max-height: 80%;font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+.btn-ver-mas-info{
+  float: right;
+  margin: 7px 5px 2px auto;
+  height: 30px;
+  text-transform: uppercase;
+}
+/******  ULTIMOS JUEGOS - OFERTAS *****/
+.cont-ultimos-juegos{
+  background-color: black;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  height: 180px;
+  width: 90%;
+  margin-left: 5%;
+  /* margin-top: 40px; */
+  margin-top: 2px;
+  display: flex;
+  background-color: #ffffff;
+}
+.cont-game-card{
+  width: 23%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+.cont-game-card-titulo{
+  height: 15%;
+  background-color: #ffffff;
+  color: #199636;
+  display: block;
+}
+.cont-game-card-titulo span{
+  text-transform: uppercase;
+  margin: auto auto auto 10px;
+  display: block;
+}
+.cont-game-card-img {
+  height: 65%;
+  background-color: #ffffff;
+}
+.cont-game-card-img img{
+  width: 96%;
+  height: 98%;
+  margin: auto;
+  display: block;
+}
+.cont-game-card-footer{
+  height: 20%;
+  display: flex;
+  background-color: #ffffff;
+}
+.precio-card{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  margin: auto auto auto 10px;
+  font-size: 20px;
+}
+.cont-game-card-btn{
+  float: right;
+  margin: auto 10px auto auto;
+}
+
+.flecha{
+  cursor: pointer;
+  margin: auto;
+  padding: 0px 10px;
+}
+.flecha i{
+  margin: auto;
+  width: 100%;
+  font-size: 2em;
+  color: #30a44c;
+}
+/******  DESTACADOS  *****/
+.cont-destacado{
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  height: 668px;
+  width: 90%;
+  margin-left: 5%;
+  /* margin-top: 40px; */
+  margin-top: 2px;
+  display: block;
+}
+.mas-jugados .titulo-ver-mas{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+.juego-destacado{
+  display: flex;
+  color: black;
+  height: 60px;
+  margin: 5px auto 5px 5px;
+  height: auto;
+}
+.img-destacado img{
+  width: 100%;
+  height: 100%;
+}
+.info-destacado{
+  display: flex;
+}
+.desc-destacados{
+  display: block;
+}
+.titulo-destacado{
+  font-size: 22px;
+  margin: 5px auto 12px 10px;
+}
+.categorias-destacado{
+  font-size: 12px;
+  margin: 5px auto 2px 10px;
+  font-family: 'Roboto', sans-serif;
+}
+.precio{
+  margin: auto 0px auto auto;
+  float: right;
+  /* color: #30a44c; */
+  color: black;
+  font-size: 25px;
+}
+.destacado-juego-btn{
+  margin: auto 20px auto 20px;
+  display: block;
+}
+.desc{
+  width: 40%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 11px;
+  margin: auto;
+  border-left: solid #53d672;
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* background-color: #53d672; */
+  color: black;
+  cursor: pointer;
+  border: solid 2px white;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #53d672;
+
+}
+.pill {
+  text-align: center;
+  display: inline-block;
+  /* line-height: 70px; */
+  background: #319649;
+  height: 21px;
+  color: white;
+  width: 21px;
+}
+.pills{
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
