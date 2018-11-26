@@ -99,7 +99,7 @@ img.img-carousel{
 .comprar{
     color: white;
     height: 40px;
-    background: #53d672;
+    background: #4a5d4e;
     position: absolute;
     bottom: 0px;
     margin: 5%;
@@ -111,7 +111,7 @@ img.img-carousel{
     display: inline;
     line-height: 40px;
     position: absolute;
-    color: black;
+    /* color: black; */
     width: 45%;
     text-align: center;
     font-size: 23px;
@@ -141,8 +141,9 @@ img.img-carousel{
 }
 .cards-container {
     width: 90%;
-    position: absolute;
+    position: relative;
     margin: 15px 5%;
+    height: 600px;
 }
 .cont-cards-left{
     width: 60%;
@@ -315,13 +316,18 @@ ol.ranking li{
     font-family: 'Montserrat', sans-serif;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #53d672; 
+    background-color: green;
     color: black;
     cursor: pointer;
     border: solid 2px white;
     border-radius: 5px;
     font-weight: bold;
     color: #53d672;
+  
+  }
+  .btn:hover{
+    background: #02af2b;
+    box-shadow: 3px 3px 3px rgb(151, 151, 151);
   
   }
   .content-minimo {

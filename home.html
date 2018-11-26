@@ -56,7 +56,10 @@
       </div>
       <ul class="filtro-list">
         <li>Free to Play</li>
-        <li>Acceso anticipado</li>
+        <li class="active">
+          Acceso anticipado
+          <i class="fas fa-check-circle"></i>
+        </li>
         <li>Acción</li>
         <li>Aventura</li>
         <li>Carreras</li>
@@ -191,7 +194,7 @@
             </div>
             <div class="cont-game-card-footer">
               <span class="precio-card">$300</span>
-              <button class="cont-game-card-btn btn" type="button" name="Ver mas"><i class="far fa-plus-square"></i> Más información </button>
+              <button class="cont-game-card-btn btn" type="button"  name="Ver mas"><i class="far fa-plus-square"></i> Más información </button>
             </div>
           </div>
           <div class="flecha-der flecha">
@@ -348,29 +351,161 @@
         </div>
       </div>
     </div>
-    <footer></footer>
+    <footer class="main-footer" style="    position: relative;
+    bottom: 10px;">
+      <nav class="footer-nav">
+        <ul>
+          <li class="center">
+            <a title="Página principal de Minijuegos" href="#">
+              <img src="img/logo-pagina.png" style="width:200px;">
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <h4>Explorar</h4>
+          </li>
+          <li>
+            <a href="#" title="Galería de trofeos">
+              Trofeos </a>
+          </li>
+          <li>
+            <a href="#" title="Juegos con logros">
+              Logros </a>
+          </li>
+          <li>
+            <a href="#" title="Comunidad">
+              Comunidad </a>
+          </li>
+          <li>
+            <a href="#" title="Centro de Avatares">
+              Centro de Avatares </a>
+          </li>
+          <li>
+            <a href="#" title="Multijugador">
+              Multijugador </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" title="Minitorneos">
+              Raviztorneos </a>
+          </li>
+          <li>
+            <a href="#" title="Eventos">
+              Eventos y novedades </a>
+          </li>
+
+        </ul>
+
+        <ul>
+          <li>
+            <h4>Recursos</h4>
+          </li>
+          <li>
+            <a href="#" title="Developers Site">
+              Desarrolladores </a>
+          </li>
+          <li>
+            <a href="#" title="Afiliados">
+              Afiliados </a>
+          </li>
+          <li>
+            <a href="#" title="Media kit">
+              Media kit </a>
+          </li>
+          <li>
+            <a href="#" title="Mobile Site">
+              Versión móvil </a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <h4>Soporte</h4>
+          </li>
+          <li>
+            <a target="_blank" href="#" title="Ayuda">
+              Ayuda </a>
+          </li>
+          <li>
+            <a href="#" title="Ayuda">
+              Sobre la experiencia </a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <h4>Social</h4>
+          </li>
+          <li>
+            <a href="#" title="Facebook" target="_blank">Facebook</a>
+          </li>
+          <li>
+            <a href="#" title="Twitter" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="#" target="_blank" title="Google+" rel="publisher">Google+</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <h4>Internacional</h4>
+          </li>
+
+          <li>
+            <a hreflang="es" href="#">Ravizjuegos</a>
+          </li>
+          <li>
+            <a hreflang="en" href="#">Ravizplay</a>
+          </li>
+          <li>
+            <a hreflang="it" href="#">Ravizgiochi</a>
+          </li>
+          <li>
+            <a hreflang="pt" href="#">Ravizjogos</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <h4>Corporate</h4>
+          </li>
+          <li>
+            <a href="#" title="Términos de Uso">
+              Términos de Uso </a>
+          </li>
+          <li>
+            <a href="#" title="Privacidad">
+              Privacidad </a>
+          </li>
+          <li>
+            <a href="#" title="Cookies">
+              Cookies </a>
+          </li>
+          <li>
+            <a href="#" title="Empleo">
+              Empleo </a>
+          </li>
+          <li>
+            <a href="#" title="About">
+              About </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
     <script src="js/codebird.js"></script>
     <script type="text/javascript">
-    //esto hace la conexion
-      var cb = new Codebird;
-      cb.setConsumerKey("iMIqsnJdYAhHWtxAEqxIK5H0r", "TaCjzIaK8AsVnPdzBhRfBWX5rzZUMu2Ss1Lqk4EmSbjngVBCor");
-      var params = {
-        q: "Nioh"
-      };
-
-      cb.__call(
-        "search_tweets",
-        params,
-        function(reply) {
-          // aca salen los tweets
-          console.log(reply);
-        },
-        true // this parameter required
-      );
-      /* cb.__call("search_tweets", params, function(reply) {
-        // ...
-        console.log(reply);
-      }); */
+      let elems=document.getElementsByClassName('destacado-juego-btn');
+      for (let i = 0; i < elems.length; i++) {
+        const element = elems[i];
+        element.onclick=(e)=> {
+          let a= document.createElement("a");
+          a.href="https://leomagari-os.github.io/pagina_tp4/detalle-juego.html";
+          a.click();
+        }
+        
+      }
       </script>
   </body>
 </html>

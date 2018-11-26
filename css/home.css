@@ -19,20 +19,32 @@
   padding: 0;
   margin: 0;
 }
+.filtro-list li.active {
+  background: green;
+  color: white;
+}
+.filtro-list li.active i {
+  float: right;
+  font-size: 16px;
+}
+
+
 .filtro-list li{
   padding: 10px 15px;
   list-style: none;
   font-size: 12px;
   cursor: pointer;
 }
+.filtro-list li:hover{
+  background: #53d672;}
 /******  PRINCIPAL  *****/
 .cont-principal{
   width: calc(85% - 15px);
   height: auto;
   background: transparent;
-  position: absolute;
-  right: 0;
-  /* margin-top:15px; */
+  position: relative;
+  right: -215px;
+  /* margin-top: 15px; */
   padding-bottom: 15px;
 }
 /******  CAROUSEL  *****/
@@ -67,6 +79,9 @@
   color: white;
   padding: 1px 25px;
 }
+.titulo-ver-mas .btn:hover{
+  background: green!important;
+}
 .titulo-box{
   font-size: 22px;
   text-transform: uppercase;
@@ -76,6 +91,9 @@
   width: 90%;
   margin-left: 5%;
   margin-top: 40px;
+}
+.flecha-right:hover,.flecha-left:hover{
+  background: green!important;
 }
 /******  DESCRIPCION  *****/
 .cont-descripcion{
@@ -204,8 +222,11 @@
   display: flex;
   color: black;
   height: 60px;
-  margin: 5px auto 5px 5px;
+  margin: 0px auto 0px 0px;
   height: auto;
+}
+.juego-destacado:nth-child(even){
+  background: #ebebeb;
 }
 .img-destacado img{
   width: 100%;
@@ -225,6 +246,8 @@
   font-size: 12px;
   margin: 5px auto 2px 10px;
   font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
 }
 .precio{
   margin: auto 0px auto auto;
@@ -236,6 +259,10 @@
 .destacado-juego-btn{
   margin: auto 20px auto 20px;
   display: block;
+}
+.destacado-juego-btn:hover{
+  background: green!important;
+  color: white;
 }
 .desc{
   width: 40%;
