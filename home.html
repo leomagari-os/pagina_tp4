@@ -36,40 +36,76 @@
         Descubre
       </div>
       <ul class="filtro-list">
-        <li>Ultimos Lanzamientos</li>
-        <li>Los mas puntuados</li>
-        <li>Ofertas</li>
+        <li class="filter-item">Ultimos Lanzamientos
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Los mas puntuados
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Ofertas
+          <i class="fas fa-check-circle"></i>
+        </li>
       </ul>
       <hr/>
       <div class="filtro-categoria">
         Explorar por categoria
       </div>
       <ul class="filtro-list">
-        <li>Clasificacion de edad</li>
-        <li>Precio ideal</li>
-        <li>Los mas vendidos</li>
-        <li>Proximamente</li>
+        <li class="filter-item">Clasificacion de edad
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Precio ideal
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Los mas vendidos
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Proximamente
+          <i class="fas fa-check-circle"></i>
+        </li>
       </ul>
       <hr/>
       <div class="filtro-categoria">
         Explorar por genero
       </div>
       <ul class="filtro-list">
-        <li>Free to Play</li>
-        <li class="active">
+        <li class="filter-item">Free to Play
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item active" >
           Acceso anticipado
           <i class="fas fa-check-circle"></i>
         </li>
-        <li>Acción</li>
-        <li>Aventura</li>
-        <li>Carreras</li>
-        <li>Casual</li>
-        <li>Deportes</li>
-        <li>Estrategia</li>
-        <li>Indie</li>
-        <li>Multijugador masivo</li>
-        <li>Rol</li>
-        <li>Simuladores	</li>
+        <li class="filter-item">Acción
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item" >Aventura
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Carreras
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Casual
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Deportes
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Estrategia
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Indie
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Multijugador masivo
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Rol
+          <i class="fas fa-check-circle"></i>
+        </li>
+        <li class="filter-item">Simuladores	
+          <i class="fas fa-check-circle"></i>
+        </li>
       </ul>
     </div>
     <div class="cont-principal">
@@ -85,7 +121,7 @@
     height: 60px;
     margin-left: -20px;
     font-size: 50px;
-    top: 62%;
+    top: 49%;
     background: #319649;
     width: 40px;
     z-index: 99999;
@@ -99,7 +135,7 @@
                 height: 60px;
                 margin-left: -20px;
                 font-size: 50px;
-                top: 50%;
+                top: 37%;
                 right: -100%;
                 background: #319649;
                 width: 40px;
@@ -208,30 +244,39 @@
           <span class="btn">Ver Mas</span>
         </div>
         <div class="cont-destacado">
-          <div class="juego-destacado">
-            <div class="img-destacado" style="padding-top: 5px;">
-              <img src="https://steamcdn-a.akamaihd.net/steam/apps/544750/capsule_184x69.jpg?t=1540011150" alt="Juego-destadado">
-            </div>
-            <div class="info-destacado">
-              <div class="desc-destacados">
-                <p class="titulo-destacado">SOULCALIBUR VI</p>
-                <p class="categorias-destacado">Rol, Aventura, Indie, Card Game, Medieval</p>
+            <div class="juego-destacado">
+                <div class="img-destacado">
+                  <img src="img/corre_entrenador_img.png" alt="Juego-destadado" style="width:128px;height: 60px;">
+                </div>
+                <div class="info-destacado">
+                  <div class="desc-destacados">
+                    <p class="titulo-destacado">Corre Entrenador!</p>
+                    <p class="categorias-destacado">Rol, Aventura, Indie, Medieval</p>
+                  </div>
+                  <span class="desc" style="    max-width: 368px;
+                  margin: 12px 8px 12px 29px;">
+                     Corre entrenador!. Recuerda que no tienes pokemones para combatir, y el equipo rocket esta rondando, asi que trata de no meterte en problemas.
+                  </span>
+                  <span class="precio">$200</span>
+                  <button class="destacado-juego-btn btn" type="button" name="Ver mas"><i class="far fa-plus-square"></i> Más información </button>
+                </div>
               </div>
-              <span class="desc">¡Lucha con algo más que los puños! Con mecánicas de combate y personajes nuevos, SOUL CALIBUR VI marca el inicio de una nueva era para esta franquicia.</span>
-              <span class="precio">$200</span>
-              <button class="destacado-juego-btn btn" type="button" name="Ver mas"><i class="far fa-plus-square"></i> Más información </button>
-            </div>
-          </div>
           <div class="juego-destacado">
-            <div class="img-destacado">
-              <img src="https://steamcdn-a.akamaihd.net/steam/apps/544750/capsule_184x69.jpg?t=1540011150" alt="Juego-destadado">
+            <div class="img-destacado" style="    width: 128px;
+            height: 60px;">
+              <img src="img/ship_shooter_img.png" alt="Juego-destadado" style="width:128px;height: 60px;">
             </div>
-            <div class="info-destacado">
+            <div class="info-destacado" style="    height: 60px;
+            width: 890px;
+        ">
               <div class="desc-destacados">
-                <p class="titulo-destacado">SOULCALIBUR VI</p>
-                <p class="categorias-destacado">Rol, Aventura, Indie, Card Game, Medieval</p>
+                <p class="titulo-destacado">Ship shooter!</p>
+                <p class="categorias-destacado">Accion, Shooter, Indie</p>
               </div>
-              <span class="desc">¡Lucha con algo más que los puños! Con mecánicas de combate y personajes nuevos, SOUL CALIBUR VI marca el inicio de una nueva era para esta franquicia.</span>
+              <span class="desc" style="    width: 368px;
+              margin: 12px 8px 12px 82px;">
+                 Sobrevive al ataque de los invasores!
+                </span>
               <span class="precio">$200</span>
               <button class="destacado-juego-btn btn" type="button" name="Ver mas"><i class="far fa-plus-square"></i> Más información </button>
             </div>
@@ -497,12 +542,28 @@
     <script src="js/codebird.js"></script>
     <script type="text/javascript">
       let elems=document.getElementsByClassName('destacado-juego-btn');
-      for (let i = 0; i < elems.length; i++) {
-        const element = elems[i];
-        element.onclick=(e)=> {
-          let a= document.createElement("a");
-          a.href="https://leomagari-os.github.io/pagina_tp4/detalle-juego.html";
-          a.click();
+      redirectElems(elems);
+      elems=document.getElementsByClassName('cont-game-card-btn');
+      redirectElems(elems);
+      elems=document.getElementsByClassName('btn-ver-mas-info');
+      redirectElems(elems);
+      function redirectElems(elements){
+        let elems=elements;
+        for (let i = 0; i < elems.length; i++) {
+          const element = elems[i];
+          element.onclick=(e)=> {
+            let a= document.createElement("a");
+            a.href="https://leomagari-os.github.io/pagina_tp4/detalle-juego.html";
+            a.click();
+          }
+        } 
+      }
+      let filters= document.getElementsByClassName("filter-item");
+      for (let i = 0; i < filters.length; i++) {
+        const element = filters[i];
+        element.onclick=e=>{
+          element.classList.toggle('active');
+          
         }
         
       }

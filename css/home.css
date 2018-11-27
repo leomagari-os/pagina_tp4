@@ -26,6 +26,10 @@
 .filtro-list li.active i {
   float: right;
   font-size: 16px;
+  display: initial;
+}
+.filtro-list li i{
+  display: none;
 }
 
 
@@ -42,10 +46,12 @@
   width: calc(85% - 15px);
   height: auto;
   background: transparent;
-  position: relative;
+  /* position: relative; */
   right: -215px;
-  /* margin-top: 15px; */
+  margin-left: 16%;
+  margin-top: 145px;
   padding-bottom: 15px;
+
 }
 /******  CAROUSEL  *****/
 .cont-carousel{
@@ -68,7 +74,8 @@
 }
 .titulo-ver-mas{
   display: flex;
-  margin: auto;
+  /* margin: auto; */
+  margin-top: -145px;
   height: 10%;
 }
 .titulo-ver-mas .btn{
@@ -135,6 +142,10 @@
   height: 30px;
   text-transform: uppercase;
 }
+.btn-ver-mas-info:hover{
+  background: green!important;
+  color:white;
+}
 /******  ULTIMOS JUEGOS - OFERTAS *****/
 .cont-ultimos-juegos{
   background-color: black;
@@ -190,6 +201,10 @@
   float: right;
   margin: auto 10px auto auto;
 }
+.cont-game-card-btn:hover{
+  background: green!important;
+  color: white;
+}
 
 .flecha{
   cursor: pointer;
@@ -202,9 +217,14 @@
   font-size: 2em;
   color: #30a44c;
 }
+.flecha i:hover{
+  background: green!important;
+  color: white;
+  border-radius:100%;
+}
 /******  DESTACADOS  *****/
 .cont-destacado{
-  background-color: #ffffff;
+  background-color: transparent;
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
   height: 668px;
   width: 90%;
@@ -221,13 +241,14 @@
 .juego-destacado{
   display: flex;
   color: black;
+  background: white;
   height: 60px;
-  margin: 0px auto 0px 0px;
+  margin: 5px auto 0px 0px;
   height: auto;
 }
-.juego-destacado:nth-child(even){
+/* .juego-destacado:nth-child(even){
   background: #ebebeb;
-}
+} */
 .img-destacado img{
   width: 100%;
   height: 100%;
@@ -296,6 +317,7 @@
   height: 21px;
   color: white;
   width: 21px;
+  cursor:pointer;
 }
 .pills{
   height: 30px;
