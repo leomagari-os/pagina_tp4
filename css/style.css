@@ -109,10 +109,11 @@ nav .nav_profile_card p{
 
 .footer-nav {
   height: 1%;
-  margin: 20px 0px 0px 2.5%;
+  margin: 20px auto 0px auto;
   overflow: hidden;
-  width: 95%;
-  padding-bottom: 15px;
+  width: 100%;
+  padding-top:15px;
+  padding-bottom:15px;
 }
 
 .footer-nav ul {

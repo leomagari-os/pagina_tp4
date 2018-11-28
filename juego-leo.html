@@ -1,79 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/detalle-juego.css">
 
-    <title>Detalle Juego</title>
-  </head>
-  <body>
-        <nav>
-                <div class="nav_logo">
-                  <img src="img/logo-pagina.png" alt="Logo">
-                </div>
-                <div class="nav_links">
-                  <p>inicio</p>
-                  <p>biblioteca</p>
-                  <div class="nav_search">
-                    <input type="text" name="buscador">
-                    <i class="fas fa-search"></i>
-                  </div>
-                </div>
-                <div class="nav_profile_card">
-                  <img src="img/perfil.jpeg" alt="Imagen Perfil">
-                  <p>nombre</p>
-                  <p> | </p>
-                  <p>Idioma</p>
-                </div>
-              </nav>
-    
-    <div class="cont-principal">
-            <div class="cont-carousel">
-                    
-                    <div style="height: 90%;margin-top: 70px;">
-                      <div class="carousel">
-                        <img src="img/ship-screen.png" alt="Imagen grande">
-                      </div>
-                      <div class="cont-descripcion">
-                        <div class="descripcion-title">Green Hell</div>
-                        <div class="descripcion-text"><p>Green Hell es una lucha agobiante por la supervivencia en la selva amazónica. Aferrándose a la vida, el jugador se embarca en un viaje de resistencia, mientras los efectos de la soledad hacen estragos en el cuerpo y en la mente. ¿Durante cuánto tiempo podrás sobrevivir frente a los peligros?</p></div>
-                        <div class="cont-miniaturas">
-                          <table>
-                            <tr>
-                              <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/815370/ss_209053061cc9ceda23a60bc537984daf2a061ce1.1920x1080.jpg?t=1539183853" alt="Miniaturas"></td>
-                              <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/815370/ss_2314d5d216fd470de8fe312ccbc2a7520965286b.1920x1080.jpg?t=1539183853" alt="Miniaturas"></td>
-                            </tr>
-                            <tr>
-                              <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/815370/ss_93009746b8072538c931d2866d19b26010d9c9df.1920x1080.jpg?t=1539183853" alt="Miniaturas"></td>
-                              <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/815370/ss_65ae34086f9a361f6e4614325581b90bfabd850c.1920x1080.jpg?t=1539183853" alt="Miniaturas"></td>
-                            </tr>
-                          </table>
-                        </div>
-                        <button class="btn-ver-mas-info btn"id="btn-ship" type="button" name="Ver mas"style="color: white;
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/detalle-juego.css">
+  <link rel="shortcut icon" href="img/logoPeque.png">
+
+
+  <title>Detalle Juego</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav_logo" onclick="location.replace('index.html')">
+      <img src="img/logo-pagina.png" alt="Logo">
+    </div>
+    <div class="nav_links">
+      <p onclick="location.replace('index.html')">inicio</p>
+      <p>biblioteca</p>
+      <div class="nav_search">
+        <input type="text" name="buscador">
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+    <div class="nav_profile_card">
+      <img src="img/perfil.jpeg" alt="Imagen Perfil">
+      <p>nombre</p>
+      <p> | </p>
+      <p>Idioma</p>
+    </div>
+  </nav>
+
+  <div class="cont-principal">
+    <div class="cont-carousel">
+
+      <div style="height: 90%;margin-top: 30px;">
+        <div class="carousel">
+          <img src="img/ship-screen.png" alt="Imagen grande">
+        </div>
+        <div class="cont-descripcion">
+          <div class="descripcion-title">Green Hell</div>
+          <div class="descripcion-text">
+            <p>Green Hell es una lucha agobiante por la supervivencia en la selva amazónica. Aferrándose a la vida, el jugador se embarca en un viaje de resistencia, mientras los efectos de la soledad hacen estragos en el cuerpo y en la mente.
+              ¿Durante cuánto tiempo podrás sobrevivir frente a los peligros?</p>
+          </div>
+          <div class="cont-miniaturas">
+            <table>
+              <tr>
+                <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/815370/ss_209053061cc9ceda23a60bc537984daf2a061ce1.1920x1080.jpg?t=1539183853" alt="Miniaturas"></td>
+                <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/815370/ss_2314d5d216fd470de8fe312ccbc2a7520965286b.1920x1080.jpg?t=1539183853" alt="Miniaturas"></td>
+              </tr>
+              <tr>
+                <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/815370/ss_93009746b8072538c931d2866d19b26010d9c9df.1920x1080.jpg?t=1539183853" alt="Miniaturas"></td>
+                <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/815370/ss_65ae34086f9a361f6e4614325581b90bfabd850c.1920x1080.jpg?t=1539183853" alt="Miniaturas"></td>
+              </tr>
+            </table>
+          </div>
+          <button class="btn-ver-mas-info btn" id="btn-ship" type="button" name="Ver mas" style="color: white;
                         margin-top: 15px;"><i class="fas fa-gamepad"></i>Jugar</button>
-                        <button class="btn-ver-mas-info btn" type="button" name="Ver mas" style="
+          <button class="btn-ver-mas-info btn" type="button" name="Ver mas" style="
                         color: white;
                         margin-top: 15px;
                         margin-left: 18%;
                         background: #f54646;
-                        "><i class="fas fa-thumbs-up" style="
+                        "><i
+              class="fas fa-thumbs-up" style="
     transform: rotate(180deg);
 "></i> 12</button>
-                        <button class="btn-ver-mas-info btn" type="button" name="Ver mas" style="
+          <button class="btn-ver-mas-info btn" type="button" name="Ver mas" style="
                         color: white;
                         margin-top: 15px;
                         margin-left: 24%;
-                        "><i class="fas fa-thumbs-up"></i> 55</button>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-        <!--<div class="cont-carousel-detalle">
+                        "><i class="fas fa-thumbs-up"></i>
+            55</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--<div class="cont-carousel-detalle">
             <img class="img-carousel"src="img/img-carousel.jpg" alt="img-1">
             <div class="img-detalle">
                 <div class="flecha-izq">
@@ -82,7 +91,7 @@
                 <div class="flecha-der">
                     <i class="fas fa-chevron-right flecha"></i>
                 </div>
-                
+
                 <div class="img-tabs">
                     <div class="tab"></div>
                     <div class="tab"></div>
@@ -97,7 +106,7 @@
                     <a href="#">Ver Mas</a>
                 </span>
               </div>
-              <div class="valoracion"> 
+              <div class="valoracion">
                 <span class="valoracion-text">Valoracion</span>
                 <div class="valoracion-puntaje">10/10</div>
               </div>
@@ -107,289 +116,299 @@
               </div>
             </div>
         </div>-->
-        <div class="cards-container">
-            
-            <div class="cont-cards-left">
-                <div class="card">
-                    <div class="card-title">
-                        Requisitos Del Sistema
-                    </div>
-                    <div class="card-content">
-                        <div class="content-minimo">
-                               <div class="card-content-title">MÍNIMO</div>
-                               <div class="content-text">
-                                    <ul>
-                                            <li>
-                                                    <div class="item">SO: </div> 
-                                                    <div class="item-text">
-                                                            Windows 7, Windows 8.1, Windows 10 (64-bit versions only)                                                    </div>
-        
-                                            </li>
-                                            <li>
-                                                    <div class="item">Procesador: </div> 
-                                                    <div class="item-text">
-                                                            Intel Core i3-550 | AMD Phenom II X4 955 or equivalent
-                                                    </div>
-                                            </li>
-                                            <li>
-                                                    <div class="item">Memoria: </div> 
-                                                    <div class="item-text">
-                                                            4 GB de RAM
-                                                    </div>
-                                            </li>
-                                            <li>
-                                                    <div class="item">Gráficos: </div> 
-                                                    <div class="item-text">
-                                                            NVIDIA GeForce GTX660/GTX750ti/GTX950/GTX1050 with 2 GB VRAM or more | AMD Radeon HD6970/HD7870/R9 270/R9 370/RX460 with 2 GB VRAM or more
-                                                    </div>
-                                            </li>
-                                            <li>
-                                                    <div class="item">Red: </div>
-                                                    <div class="item-text">
-                                                        Conexión de banda ancha a Internet
-                                                    </div>
-                                            </li>
-                                            <li>
-                                                    <div class="item">Almacenamiento: </div> 
-                                                    <div class="item-text">
-                                                        40 GB de espacio disponible
-                                                    </div>
-                                            </li>
-                                            <li>
-                                                   <div class="item">Tarjeta de sonido: </div>
-                                                   <div class="item-text">
-                                                        DirectX-Compatible using the latest drivers
-                                                   </div>
-                                            </li>
-                                            
-                                        </ul>
-                               
-                               </div>
-                        </div>
-                        <div class="content-recomendado">
-                                <div class="card-content-title" style="
+  <div class="cards-container">
+
+    <div class="cont-cards-left">
+      <div class="card">
+        <div class="card-title">
+          Requisitos Del Sistema
+        </div>
+        <div class="card-content">
+          <div class="content-minimo">
+            <div class="card-content-title">MÍNIMO</div>
+            <div class="content-text">
+              <ul>
+                <li>
+                  <div class="item">SO: </div>
+                  <div class="item-text">
+                    Windows 7, Windows 8.1, Windows 10 (64-bit versions only) </div>
+
+                </li>
+                <li>
+                  <div class="item">Procesador: </div>
+                  <div class="item-text">
+                    Intel Core i3-550 | AMD Phenom II X4 955 or equivalent
+                  </div>
+                </li>
+                <li>
+                  <div class="item">Memoria: </div>
+                  <div class="item-text">
+                    4 GB de RAM
+                  </div>
+                </li>
+                <li>
+                  <div class="item">Gráficos: </div>
+                  <div class="item-text">
+                    NVIDIA GeForce GTX660/GTX750ti/GTX950/GTX1050 with 2 GB VRAM or more | AMD Radeon HD6970/HD7870/R9 270/R9 370/RX460 with 2 GB VRAM or more
+                  </div>
+                </li>
+                <li>
+                  <div class="item">Red: </div>
+                  <div class="item-text">
+                    Conexión de banda ancha a Internet
+                  </div>
+                </li>
+                <li>
+                  <div class="item">Almacenamiento: </div>
+                  <div class="item-text">
+                    40 GB de espacio disponible
+                  </div>
+                </li>
+                <li>
+                  <div class="item">Tarjeta de sonido: </div>
+                  <div class="item-text">
+                    DirectX-Compatible using the latest drivers
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+          <div class="content-recomendado">
+            <div class="card-content-title" style="
                                 top: 70px;
                             ">RECOMENDADO</div>
-                                <ul>
-                                    <li>
-                                            <div class="item">SO: </div> 
-                                            <div class="item-text">
-                                                Windows 7, Windows 8.1, Windows 10 (64-bit versions only)
-                                            </div>
-
-                                    </li>
-                                    <li>
-                                            <div class="item">Procesador: </div> 
-                                            <div class="item-text">
-                                                Intel Core i5-2500K | AMD FX-6350 or equivalent
-                                            </div>
-                                    </li>
-                                    <li>
-                                            <div class="item">Memoria: </div> 
-                                            <div class="item-text">
-                                                8 GB de RAM
-                                            </div>
-                                    </li>
-                                    <li>
-                                            <div class="item">Gráficos: </div> 
-                                            <div class="item-text">
-                                                NVIDIA GeForce GTX770/GTX970/GTX1060 with 3 GB VRAM or more | AMD Radeon R9 280X/R9 380/RX470 with 3 GB VRAM or more                                    
-                                            </div>
-                                    </li>
-                                    <li>
-                                            <div class="item">Red: </div>
-                                            <div class="item-text">
-                                                Conexión de banda ancha a Internet
-                                            </div>
-                                    </li>
-                                    <li>
-                                            <div class="item">Almacenamiento: </div> 
-                                            <div class="item-text">
-                                                40 GB de espacio disponible
-                                            </div>
-                                    </li>
-                                    <li>
-                                           <div class="item">Tarjeta de sonido: </div>
-                                           <div class="item-text">
-                                                DirectX-Compatible using the latest drivers
-                                           </div>
-                                    </li>
-                                    
-                                </ul>
-                               
-                               
-                        </div>
-                    </div>
+            <ul>
+              <li>
+                <div class="item">SO: </div>
+                <div class="item-text">
+                  Windows 7, Windows 8.1, Windows 10 (64-bit versions only)
                 </div>
-            </div>
-            <div class="cont-cards-right">
-                
-                <div class="card-mini ranking">
-                        <div class="card-mini-title">
-                            Ranking
-                        </div>
-                        <div class="cont-ranking">
-                            <ol class="ranking">
-                                    <li>Rvz420</li>
-                                    <li>Arion</li>
-                                    <li>MaxiHadoken</li>
-                                    <li>Nozzlen</li>
-                                    <li>BestBardoLAS</li>
-                                
-                            </ol>
-                        </div>
-                    </div>
-            </div>
+
+              </li>
+              <li>
+                <div class="item">Procesador: </div>
+                <div class="item-text">
+                  Intel Core i5-2500K | AMD FX-6350 or equivalent
+                </div>
+              </li>
+              <li>
+                <div class="item">Memoria: </div>
+                <div class="item-text">
+                  8 GB de RAM
+                </div>
+              </li>
+              <li>
+                <div class="item">Gráficos: </div>
+                <div class="item-text">
+                  NVIDIA GeForce GTX770/GTX970/GTX1060 with 3 GB VRAM or more | AMD Radeon R9 280X/R9 380/RX470 with 3 GB VRAM or more
+                </div>
+              </li>
+              <li>
+                <div class="item">Red: </div>
+                <div class="item-text">
+                  Conexión de banda ancha a Internet
+                </div>
+              </li>
+              <li>
+                <div class="item">Almacenamiento: </div>
+                <div class="item-text">
+                  40 GB de espacio disponible
+                </div>
+              </li>
+              <li>
+                <div class="item">Tarjeta de sonido: </div>
+                <div class="item-text">
+                  DirectX-Compatible using the latest drivers
+                </div>
+              </li>
+
+            </ul>
+
+
+          </div>
         </div>
+      </div>
+      <p class="titulo-box">Que opina la gente</p>
+      <img id="gifCargando" src="img/cargando.gif">
     </div>
-    <footer class="main-footer">
-        <nav class="footer-nav">
-          <ul>
-            <li class="center">
-              <a title="Página principal de Minijuegos" href="#">
-                <img src="img/logo-pagina.png" style="width:200px;">
-              </a>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <h4>Explorar</h4>
-            </li>
-            <li>
-              <a href="#" title="Galería de trofeos">
-                Trofeos </a>
-            </li>
-            <li>
-              <a href="#" title="Juegos con logros">
-                Logros </a>
-            </li>
-            <li>
-              <a href="#" title="Comunidad">
-                Comunidad </a>
-            </li>
-            <li>
-              <a href="#" title="Centro de Avatares">
-                Centro de Avatares </a>
-            </li>
-            <li>
-              <a href="#" title="Multijugador">
-                Multijugador </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" title="Minitorneos">
-                Raviztorneos </a>
-            </li>
-            <li>
-              <a href="#" title="Eventos">
-                Eventos y novedades </a>
-            </li>
-  
-          </ul>
-  
-          <ul>
-            <li>
-              <h4>Recursos</h4>
-            </li>
-            <li>
-              <a href="#" title="Developers Site">
-                Desarrolladores </a>
-            </li>
-            <li>
-              <a href="#" title="Afiliados">
-                Afiliados </a>
-            </li>
-            <li>
-              <a href="#" title="Media kit">
-                Media kit </a>
-            </li>
-            <li>
-              <a href="#" title="Mobile Site">
-                Versión móvil </a>
-            </li>
-          </ul>
-  
-          <ul>
-            <li>
-              <h4>Soporte</h4>
-            </li>
-            <li>
-              <a target="_blank" href="#" title="Ayuda">
-                Ayuda </a>
-            </li>
-            <li>
-              <a href="#" title="Ayuda">
-                Sobre la experiencia </a>
-            </li>
-          </ul>
-  
-          <ul>
-            <li>
-              <h4>Social</h4>
-            </li>
-            <li>
-              <a href="#" title="Facebook" target="_blank">Facebook</a>
-            </li>
-            <li>
-              <a href="#" title="Twitter" target="_blank">Twitter</a>
-            </li>
-            <li>
-              <a href="#" target="_blank" title="Google+" rel="publisher">Google+</a>
-            </li>
-          </ul>
-  
-          <ul>
-            <li>
-              <h4>Internacional</h4>
-            </li>
-  
-            <li>
-              <a hreflang="es" href="#">Ravizjuegos</a>
-            </li>
-            <li>
-              <a hreflang="en" href="#">Ravizplay</a>
-            </li>
-            <li>
-              <a hreflang="it" href="#">Ravizgiochi</a>
-            </li>
-            <li>
-              <a hreflang="pt" href="#">Ravizjogos</a>
-            </li>
-          </ul>
-  
-          <ul>
-            <li>
-              <h4>Corporate</h4>
-            </li>
-            <li>
-              <a href="#" title="Términos de Uso">
-                Términos de Uso </a>
-            </li>
-            <li>
-              <a href="#" title="Privacidad">
-                Privacidad </a>
-            </li>
-            <li>
-              <a href="#" title="Cookies">
-                Cookies </a>
-            </li>
-            <li>
-              <a href="#" title="Empleo">
-                Empleo </a>
-            </li>
-            <li>
-              <a href="#" title="About">
-                About </a>
-            </li>
-          </ul>
-        </nav>
-      </footer>
+    <div class="cont-cards-right">
+
+      <div class="card-mini ranking">
+        <div class="card-mini-title">
+          Ranking
+        </div>
+        <div class="cont-ranking">
+          <ol class="ranking">
+            <li><span style="color:white;">Rvz420</span></li>
+            <li><span style="color:white;">Arion</span></li>
+            <li><span style="color:white;">MaxiHadoken</span></li>
+            <li><span style="color:white;">Nozzlen</span></li>
+            <li><span style="color:white;">BestBardoLAS</span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div id="comentarios">
+      <div class="comentarios">
+        <div id="comentario--front" class="comentarios comentario--front"></div>
+        <div id="comentario--back" class="comentarios comentario--back"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer class="main-footer">
+    <nav class="footer-nav">
+      <ul>
+        <li class="center">
+          <a title="Página principal de Minijuegos" href="#">
+            <img src="img/logo-pagina.png" style="width:200px;">
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h4>Explorar</h4>
+        </li>
+        <li>
+          <a href="#" title="Galería de trofeos">
+            Trofeos </a>
+        </li>
+        <li>
+          <a href="#" title="Juegos con logros">
+            Logros </a>
+        </li>
+        <li>
+          <a href="#" title="Comunidad">
+            Comunidad </a>
+        </li>
+        <li>
+          <a href="#" title="Centro de Avatares">
+            Centro de Avatares </a>
+        </li>
+        <li>
+          <a href="#" title="Multijugador">
+            Multijugador </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" title="Minitorneos">
+            Raviztorneos </a>
+        </li>
+        <li>
+          <a href="#" title="Eventos">
+            Eventos y novedades </a>
+        </li>
+
+      </ul>
+
+      <ul>
+        <li>
+          <h4>Recursos</h4>
+        </li>
+        <li>
+          <a href="#" title="Developers Site">
+            Desarrolladores </a>
+        </li>
+        <li>
+          <a href="#" title="Afiliados">
+            Afiliados </a>
+        </li>
+        <li>
+          <a href="#" title="Media kit">
+            Media kit </a>
+        </li>
+        <li>
+          <a href="#" title="Mobile Site">
+            Versión móvil </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <h4>Soporte</h4>
+        </li>
+        <li>
+          <a target="_blank" href="#" title="Ayuda">
+            Ayuda </a>
+        </li>
+        <li>
+          <a href="#" title="Ayuda">
+            Sobre la experiencia </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <h4>Social</h4>
+        </li>
+        <li>
+          <a href="#" title="Facebook" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <a href="#" title="Twitter" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <a href="#" target="_blank" title="Google+" rel="publisher">Google+</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <h4>Internacional</h4>
+        </li>
+
+        <li>
+          <a hreflang="es" href="#">Ravizjuegos</a>
+        </li>
+        <li>
+          <a hreflang="en" href="#">Ravizplay</a>
+        </li>
+        <li>
+          <a hreflang="it" href="#">Ravizgiochi</a>
+        </li>
+        <li>
+          <a hreflang="pt" href="#">Ravizjogos</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <h4>Corporate</h4>
+        </li>
+        <li>
+          <a href="#" title="Términos de Uso">
+            Términos de Uso </a>
+        </li>
+        <li>
+          <a href="#" title="Privacidad">
+            Privacidad </a>
+        </li>
+        <li>
+          <a href="#" title="Cookies">
+            Cookies </a>
+        </li>
+        <li>
+          <a href="#" title="Empleo">
+            Empleo </a>
+        </li>
+        <li>
+          <a href="#" title="About">
+            About </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
   <script>
-   let shipbtn=document.getElementById('btn-ship');
-      shipbtn.onclick=e=>{
-        let link=document.createElement("a");
-        link.href="https://leomagari-os.github.io/interfaces2018/tp4/entregable/";
-        link.click();
-      }
-      </script>
-  </body>
+    let shipbtn = document.getElementById('btn-ship');
+    shipbtn.onclick = e => {
+      let link = document.createElement("a");
+      link.href = "https://leomagari-os.github.io/interfaces2018/tp4/entregable/";
+      link.click();
+    }
+  </script>
+  <script type="text/javascript" src="js/codebird.js"></script>
+  <script type="text/javascript" src="js/comentario.js"></script>
+</body>
+
 </html>

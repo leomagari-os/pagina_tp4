@@ -9,15 +9,17 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="shortcut icon" href="img/logoPeque.png">
+
     <title>Home</title>
   </head>
   <body>
     <nav>
-      <div class="nav_logo">
+      <div class="nav_logo" onclick="location.replace('index.html')">
         <img src="img/logo-pagina.png" alt="Logo">
       </div>
       <div class="nav_links">
-        <p>inicio</p>
+        <p onclick="location.replace('index.html')">inicio</p>
         <p>biblioteca</p>
         <div class="nav_search">
           <input type="text" placeholder="Buscar en tienda..."name="buscador">
@@ -103,7 +105,7 @@
         <li class="filter-item">Rol
           <i class="fas fa-check-circle"></i>
         </li>
-        <li class="filter-item">Simuladores	
+        <li class="filter-item">Simuladores
           <i class="fas fa-check-circle"></i>
         </li>
       </ul>
@@ -113,7 +115,7 @@
       box-shadow: none;
       margin-top: -130px;
   ">
-        
+
         <div class="flecha-left" style="
     color: white;
     position: relative;
@@ -258,7 +260,7 @@
                      Corre entrenador!. Recuerda que no tienes pokemones para combatir, y el equipo rocket esta rondando, asi que trata de no meterte en problemas.
                   </span>
                   <span class="precio">$200</span>
-                  <button href="https://manucobianco.github.io/corre_entrenador/"class="destacado-juego-btn btn" id="btn-entrenador"type="button" name="Ver mas"><i class="far fa-plus-square"></i> Más información </button>
+                  <button href="https://manucobianco.github.io/corre_entrenador/" class="destacado-juego-btn btn" id="btn-entrenador"type="button" name="Ver mas"><i class="far fa-plus-square"></i> Más información </button>
                 </div>
               </div>
           <div class="juego-destacado">
@@ -547,36 +549,47 @@
       redirectElems(elems);
       elems=document.getElementsByClassName('btn-ver-mas-info');
       redirectElems(elems);
+      elems=document.getElementsByClassName('img-destacado');
+      redirectElems(elems);
+      elems=document.getElementsByClassName('titulo-destacado');
+      redirectElems(elems);
+      elems=document.getElementsByClassName('cont-game-card-titulo');
+      redirectElems(elems);
+      elems=document.getElementsByClassName('cont-game-card-img');
+      redirectElems(elems);
+      elems=document.getElementsByClassName('carousel');
+      redirectElems(elems);
+      elems=document.getElementsByClassName('descripcion-title');
+      redirectElems(elems);
       function redirectElems(elements){
         let elems=elements;
         for (let i = 0; i < elems.length; i++) {
           const element = elems[i];
           element.onclick=(e)=> {
             let a= document.createElement("a");
-            a.href="https://leomagari-os.github.io/pagina_tp4/detalle-juego.html";
+            a.href="detalle-juego.html";
             a.click();
           }
-        } 
+        }
       }
       let filters= document.getElementsByClassName("filter-item");
       for (let i = 0; i < filters.length; i++) {
         const element = filters[i];
         element.onclick=e=>{
           element.classList.toggle('active');
-          
         }
-        
+
       }
       let shipbtn=document.getElementById('btn-ship');
       shipbtn.onclick=e=>{
         let link=document.createElement("a");
-        link.href="https://leomagari-os.github.io/pagina_tp4/juego-leo.html";
+        link.href="juego-leo.html";
         link.click();
       }
       let entrenador=document.getElementById('btn-entrenador');
       entrenador.onclick=e=>{
         let link=document.createElement("a");
-        link.href="https://leomagari-os.github.io/pagina_tp4/juego-manu.html";
+        link.href="juego-manu.html";
         //link.href="https://manucobianco.github.io/corre_entrenador/";
         link.click();
       }
