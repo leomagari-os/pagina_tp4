@@ -184,9 +184,17 @@ ol.ranking{
 }
 ol.ranking li{
     color: black;
-    width: 90%;
-    border-bottom: dotted 1px white;
+    background: green;
+    width: 50%;
+    margin-bottom: 5px;
+    /* border-bottom: dotted 1px white; */
+    transform: rotate3d(2,0,0,0deg);
+    padding: 5px 5px;
     
+}
+ol.ranking li:hover{
+    animation: spinner 1s infinite linear;
+    transform-style: preserve-3d;
 }
 .card-mini-title{
     width: 62%;
@@ -363,3 +371,8 @@ ul{
     font-size: 13px;
 }
 
+@keyframes spinner {
+    0% { transform: rotate3d(2, 0, 0, 0deg); }
+    50% { transform: rotate3d(2, 0, 0, 180deg); }
+    100% { transform: rotate3d(2, 0, 0, 360deg); }
+}
