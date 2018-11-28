@@ -58,10 +58,24 @@ nav .nav_links div{
 }
 nav .nav_links div input{
   background-color: transparent;
+  border: 1px solid #e0e0e0;
+  min-height: 40px;
+  height: 30px;
+  padding: 0px 19px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition-property: border-color, box-shadow;
+  transition-duration: 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s;
+  outline-color: green;
 }
 nav .nav_links div i{
   margin-left: 3px;
   cursor: pointer;
+  line-height: 42px;
+  font-size: 21px;
 }
 nav .nav_profile_card{
   float: right;

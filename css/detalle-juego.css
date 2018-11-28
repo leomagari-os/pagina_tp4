@@ -325,11 +325,11 @@ ol.ranking li{
     color: #53d672;
   
   }
-  .btn:hover{
+  /* .btn:hover{
     background: #02af2b;
     box-shadow: 3px 3px 3px rgb(151, 151, 151);
   
-  }
+  } */
   .content-minimo {
     width: calc(45% - 18px);
     display: inline-flex;
